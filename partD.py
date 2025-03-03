@@ -35,7 +35,7 @@ outputfileXML.close()
 
 for timestamp in sorted(numevents_per_hour):
     print(str(timestamp) + "   " + str(numevents_per_hour[timestamp]))
-    outputfileMD.write(str(timestamp) + "   " + str(numevents_per_hour[timestamp]))
+    outputfileMD.write(str(timestamp) + "   " + str(numevents_per_hour[timestamp]) + "\n\n")
 
 print("Number of events with EventID " + str(event_id_input) + ": " + str(numevents_total))
 outputfileMD.write("Number of events with EventID " + str(event_id_input) + ": " + str(numevents_total))
