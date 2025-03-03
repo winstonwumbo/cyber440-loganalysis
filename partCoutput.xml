@@ -1,0 +1,87 @@
+<ns0:Event xmlns:ns0="http://schemas.microsoft.com/win/2004/08/events/event">
+<ns0:System>
+	<ns0:Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+	<ns0:EventID>4625</ns0:EventID>
+	<ns0:Version>0</ns0:Version>
+	<ns0:Level>0</ns0:Level>
+	<ns0:Task>12544</ns0:Task>
+	<ns0:Opcode>0</ns0:Opcode>
+	<ns0:Keywords>0x8010000000000000</ns0:Keywords>
+	<ns0:TimeCreated SystemTime="2011-04-15T15:05:01.875000000Z" />
+	<ns0:EventRecordID>1332961</ns0:EventRecordID>
+	<ns0:Correlation />
+	<ns0:Execution ProcessID="452" ThreadID="3224" />
+	<ns0:Channel>Security</ns0:Channel>
+	<ns0:Computer>DC01.AFC.com</ns0:Computer>
+	<ns0:Security />
+</ns0:System>
+
+<ns0:EventData>
+	<ns0:Data Name="SubjectUserSid">S-1-5-18</ns0:Data>
+	<ns0:Data Name="SubjectUserName">DC01$</ns0:Data>
+	<ns0:Data Name="SubjectDomainName">AFC</ns0:Data>
+	<ns0:Data Name="SubjectLogonId">0x3e7</ns0:Data>
+	<ns0:Data Name="TargetUserSid">S-1-0-0</ns0:Data>
+	<ns0:Data Name="TargetUserName">administrator</ns0:Data>
+	<ns0:Data Name="TargetDomainName">AFC.com</ns0:Data>
+	<ns0:Data Name="Status">0xc000006d</ns0:Data>
+	<ns0:Data Name="FailureReason">%%2313</ns0:Data>
+	<ns0:Data Name="SubStatus">0xc000006a</ns0:Data>
+	<ns0:Data Name="LogonType">2</ns0:Data>
+	<ns0:Data Name="LogonProcessName">User32 </ns0:Data>
+	<ns0:Data Name="AuthenticationPackageName">Negotiate</ns0:Data>
+	<ns0:Data Name="WorkstationName">DC01</ns0:Data>
+	<ns0:Data Name="TransmittedServices">-</ns0:Data>
+	<ns0:Data Name="LmPackageName">-</ns0:Data>
+	<ns0:Data Name="KeyLength">0</ns0:Data>
+	<ns0:Data Name="ProcessId">0xf1c</ns0:Data>
+	<ns0:Data Name="ProcessName">C:\Windows\System32\winlogon.exe</ns0:Data>
+	<ns0:Data Name="IpAddress">127.0.0.1</ns0:Data>
+	<ns0:Data Name="IpPort">0</ns0:Data>
+</ns0:EventData>
+</ns0:Event>
+
+
+<ns0:Event xmlns:ns0="http://schemas.microsoft.com/win/2004/08/events/event">
+<ns0:System>
+	<ns0:Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+	<ns0:EventID>4625</ns0:EventID>
+	<ns0:Version>0</ns0:Version>
+	<ns0:Level>0</ns0:Level>
+	<ns0:Task>12544</ns0:Task>
+	<ns0:Opcode>0</ns0:Opcode>
+	<ns0:Keywords>0x8010000000000000</ns0:Keywords>
+	<ns0:TimeCreated SystemTime="2011-04-15T15:04:57.671875000Z" />
+	<ns0:EventRecordID>1332958</ns0:EventRecordID>
+	<ns0:Correlation />
+	<ns0:Execution ProcessID="452" ThreadID="3224" />
+	<ns0:Channel>Security</ns0:Channel>
+	<ns0:Computer>DC01.AFC.com</ns0:Computer>
+	<ns0:Security />
+</ns0:System>
+<ns0:EventData>
+	<ns0:Data Name="SubjectUserSid">S-1-5-18</ns0:Data>
+	<ns0:Data Name="SubjectUserName">DC01$</ns0:Data>
+	<ns0:Data Name="SubjectDomainName">AFC</ns0:Data>
+	<ns0:Data Name="SubjectLogonId">0x3e7</ns0:Data>
+	<ns0:Data Name="TargetUserSid">S-1-0-0</ns0:Data>
+	<ns0:Data Name="TargetUserName">administrator</ns0:Data>
+	<ns0:Data Name="TargetDomainName">AFC.com</ns0:Data>
+	<ns0:Data Name="Status">0xc000006d</ns0:Data>
+	<ns0:Data Name="FailureReason">%%2313</ns0:Data>
+	<ns0:Data Name="SubStatus">0xc000006a</ns0:Data>
+	<ns0:Data Name="LogonType">2</ns0:Data>
+	<ns0:Data Name="LogonProcessName">User32 </ns0:Data>
+	<ns0:Data Name="AuthenticationPackageName">Negotiate</ns0:Data>
+	<ns0:Data Name="WorkstationName">DC01</ns0:Data>
+	<ns0:Data Name="TransmittedServices">-</ns0:Data>
+	<ns0:Data Name="LmPackageName">-</ns0:Data>
+	<ns0:Data Name="KeyLength">0</ns0:Data>
+	<ns0:Data Name="ProcessId">0xf1c</ns0:Data>
+	<ns0:Data Name="ProcessName">C:\Windows\System32\winlogon.exe</ns0:Data>
+	<ns0:Data Name="IpAddress">127.0.0.1</ns0:Data>
+	<ns0:Data Name="IpPort">0</ns0:Data>
+</ns0:EventData>
+</ns0:Event>
+
+
